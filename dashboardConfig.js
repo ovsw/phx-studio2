@@ -12,10 +12,10 @@ export default {
                 "NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.",
               sites: [
                 {
-                  buildHookId: "60d9df9533e20c0bac8e5bbb",
-                  title: "PHXHomeloan.com Front-End Development Copy",
+                  buildHookId: "5e7242951f833c28ac4b3f7b",
+                  title: "PHXHomeloan.com Front-End",
                   name: "phxhomeloan",
-                  apiId: "1708813a-617f-4ba6-ae15-0674e6bbb6f6",
+                  apiId: "78b72c7d-9105-4a02-9193-4a8287bfbc0a",
                 },
               ],
             },
@@ -34,7 +34,7 @@ export default {
           // },
           {
             title: "Frontend",
-            value: "https://phxhomeloan2.netlify.app",
+            value: "https://phxhomeloan.com",
             category: "apps",
           },
         ],

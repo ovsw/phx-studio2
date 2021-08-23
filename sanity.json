@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "PHX Home Loan 2"
+    "name": "PHX Home Loan"
   },
   "api": {
     "projectId": "jr1ot0wt",
@@ -15,7 +15,8 @@
     "@sanity/desk-tool",
     "@sanity/dashboard",
     "table",
-    "dashboard-widget-netlify"
+    "dashboard-widget-netlify",
+    "dashboard-widget-gatsby"
   ],
   "env": {
     "development": {

@@ -2,6 +2,10 @@ export default {
   widgets: [
     // {name: 'structure-menu'},
     {
+      name: "gatsby",
+      options: { sites: [{ siteUrl: "https://preview-phxhomeloan.gtsb.io/" }] },
+    },
+    {
       name: "project-info",
       options: {
         __experimental_before: [
@@ -12,7 +16,7 @@ export default {
                 "NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.",
               sites: [
                 {
-                  buildHookId: "5e7242951f833c28ac4b3f7b",
+                  buildHookId: "6102834e33ffc7aaf1e4b020",
                   title: "PHXHomeloan.com Front-End",
                   name: "phxhomeloan",
                   apiId: "78b72c7d-9105-4a02-9193-4a8287bfbc0a",

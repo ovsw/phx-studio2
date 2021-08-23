@@ -70,6 +70,7 @@ export default {
                   { type: "post" },
                   // other types you may want to link to
                 ],
+                validation: Rule => Rule.required().error("internal link is missing a destination.")
               },
             ],
           },

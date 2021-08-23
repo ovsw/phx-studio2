@@ -1,5 +1,5 @@
 import S from '@sanity/desk-tool/structure-builder'
-import {MdSettings, MdPerson, MdFolder, MdBook, MdList, MdStar} from 'react-icons/md'
+import {MdSettings, MdPerson, MdFolder, MdBook, MdList, MdStar, MdArrowForward} from 'react-icons/md'
 
 const hiddenDocTypes = listItem =>
   !['category', 'author', 'post', 'siteSettings'].includes(listItem.getId())
@@ -159,7 +159,12 @@ export default () =>
         .title('Team')
         .icon(MdPerson)
         .schemaType('person')
-        .child(S.documentTypeList('person').title('Team Members'))
+        .child(S.documentTypeList('person').title('Team Members')),
+      S.documentListItem()
+        .title('Redirects')
+        .id('redirects')
+        .icon(MdArrowForward)
+        .schemaType('redirects')
       // S.listItem()
       //   .title('HP Reviews Widget')
       //   .icon(MdStar)

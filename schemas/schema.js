@@ -11,6 +11,7 @@ import post from "./documents/post";
 import siteSettings from "./documents/siteSettings";
 import page from "./documents/page";
 import person from "./documents/person";
+import redirects from "./documents/redirects";
 import reviewsWidget from "./documents/reviewsWidget";
 
 // Object types
@@ -21,6 +22,7 @@ import mainImage from "./objects/mainImage";
 import authorReference from "./objects/authorReference";
 import youtube from "./objects/youtube";
 import iframeEmbed from "./objects/iframeEmbed";
+import redirect from "./objects/redirect";
 import review from "./objects/review";
 import mytable from "./objects/mytable";
 
@@ -38,6 +40,8 @@ export default createSchema({
     page,
     reviewsWidget,
     person,
+    redirect,
+    redirects,
     category,
     author,
     mainImage,

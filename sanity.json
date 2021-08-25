@@ -16,13 +16,12 @@
     "@sanity/dashboard",
     "table",
     "dashboard-widget-netlify",
-    "dashboard-widget-gatsby"
+    "dashboard-widget-gatsby",
+    "gatsby-cloud-start-preview"
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [

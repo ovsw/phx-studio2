@@ -3,10 +3,6 @@ export default {
     // {name: 'structure-menu'},
 
     {
-      name: "gatsby",
-      options: { sites: [{ siteUrl: "https://preview-phxhomeloan.gtsb.io/" }] },
-    },
-    {
       name: "project-info",
       options: {
         __experimental_before: [
@@ -51,9 +47,5 @@ export default {
     //   options: {title: 'Recent blog posts', order: '_createdAt desc', types: ['post']},
     //   layout: {width: 'medium'}
     // }
-    {
-      name: "gatsby-cloud-start-preview",
-      options: { sites: [{ siteUrl: "https://preview-phxhomeloan.gtsb.io/" }] },
-    },
   ],
 };

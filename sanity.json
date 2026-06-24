@@ -15,9 +15,7 @@
     "@sanity/desk-tool",
     "@sanity/dashboard",
     "table",
-    "dashboard-widget-netlify",
-    "dashboard-widget-gatsby",
-    "gatsby-cloud-start-preview"
+    "dashboard-widget-netlify"
   ],
   "env": {
     "development": {
